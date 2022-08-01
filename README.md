@@ -4,10 +4,10 @@
 The LTSG dataset contains Points of Interest (POIs), HDB buildings and public transportation data of Singapore.
 
 ### Project Site
-The project site is [here]()
+The project site is [here](https://sites.google.com/view/ltsg)
 
 ### Download
-You can download the complete dataset here: [Download LTSG]().
+You can download the complete dataset from the repository.
 
 
 ### Paper
