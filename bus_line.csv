@@ -1,4 +1,4 @@
-,ServiceNo,Operator,Direction,StopSequence,BusStopCode,Distance,WD_FirstBus,WD_LastBus,SAT_FirstBus,SAT_LastBus,SUN_FirstBus,SUN_LastBus
+,line,operator,direction,sequence,stop_id,distance,WD_FirstBus,WD_LastBus,SAT_FirstBus,SAT_LastBus,SUN_FirstBus,SUN_LastBus
 0,10,SBST,1,1,75009,0,500,2300,500,2300,500,2300
 1,10,SBST,1,2,76059,0.6,502,2302,502,2302,502,2302
 2,10,SBST,1,3,76069,1.1,504,2304,504,2304,503,2304
