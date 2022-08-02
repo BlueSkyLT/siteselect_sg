@@ -1,13 +1,23 @@
 # The Land &amp; Transport Singapore (LTSG) dataset
 
 ### Dataset Description:
-The LTSG dataset contains Points of Interest (POIs), HDB buildings and public transportation data of Singapore. 
+The LTSG dataset contains Points of Interest (POIs), HDB buildings and public transportation data of Singapore. The dataset aims to provide an overview of the urban life of the city state. The POI data contains data points of places that people have an interest in visiting for a certain purpose, which include but not limited to educational institutes such as schools or libraries, shopping places such as supermarkets or convenience stores, recreational places such as parks or bars. Generally speaking, the POI data can tell us what kind of activities are happening at the location. The HDB data contains data points of apartment buildings where people reside. In short, the HDB data shows where people are staying, while the POI data shows where people are visiting. Every day, people travel between these locations, forming a certain connection between them. With the bus routing data, the bus ridership data and the subway routing data, we hope to provide information on the system that supports these travels. Thus, this dataset has the potential to be used by researchers in the field for many different tasks that require knowledge of transport, recreational, commercial and residential information of a city, especially to explore their influence on each other.
+The data are gathered from various sources including [DataMall](https://datamall.lta.gov.sg/content/datamall/en.html), [Data.gov.sg](https://data.gov.sg), [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview), [OneMap API](https://www.onemap.gov.sg/docs/).
+
+Within the dataset:
+- ```poi.csv``` contains 8672 POIs around Singapore. Attributes include their Google user ratings and number of ratings, the POI types (list of types can be found [here](https://developers.google.com/maps/documentation/places/web-service/supported_types)), and their street address, etc.
+- ```hdb.csv``` contains 12442 HDB buildings in Singapore. Attributes include their block number, street address, zipcode, the year when they were built, the number of dwelling units, and the functionality of the building, etc. 
+- ```bus_line.csv``` contains 5049 bus stations and their routing information.
+- ```bus_vol.csv``` contains 5018 bus stations and their passenger volume information during July, August, and September 2021.
+- ```mrt.csv``` contains 166 subway stations and their routing information.
+
+All of the data comes with location (in longitude and latitude) and administrative division (by subzone, planning area, and region) information.
 
 ### Project Site
-The project site is [here](https://sites.google.com/view/ltsg)
+The project site is [here](https://sites.google.com/view/ltsg).
 
 ### Download
-You can download the complete dataset from the repository.
+You can download the complete dataset from [here](https://entuedu-my.sharepoint.com/:u:/g/personal/lant0003_e_ntu_edu_sg/EVUr_QwsB1pPvP6r3MMYQS4BXWvjvVAg1PzINtpgoTvlMg?e=T3B2n1).
 
 ### Paper
 Paper available [here](https://doi.org/10.3390/rs14153579).
@@ -37,4 +47,4 @@ Contact Tian Lan (lant0003@ntu.edu.sg) for any questions.
 
 Update and Fix
 -----
-Update Aug 2, 2022
+Update Aug 2, 2022.
